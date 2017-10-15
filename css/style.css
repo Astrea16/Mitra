@@ -1,8 +1,8 @@
 *{
-	font-family: Garamond, serif;
+		font-family: Garamond, serif;
 }
 header{
-	background: url(../img/mitra.jpg)  top center;
+	background: url(../img/mitra.jpg)  top center no-repeat;
 	
 }
 .container-fluid{
@@ -98,22 +98,26 @@ header{
 	padding-right: 13px;
 }
 .IconBlock{
-	font-size: 20px;
 	margin-top: 60px;
+}
+.IconBlock p{
 	font: 20px Garamond, sans-serif;
 	color: #fff;
 }
+.IconBlock img{
+	margin: 0 auto;
+}
 .icon_1{
-	margin-left: 55%;
+	margin-left: ;
 }
 .icon_2{
-	margin-left: 44%;
+	margin-left: ;
 }
 .icon_3{
-	margin-left: 32%;
+	margin-left: ;
 }
 .icon_4{
-	margin-left: 21%;
+	margin-left: ;
 }
 .IconBlock p{
 	margin-top: 17px;
@@ -121,16 +125,16 @@ header{
 }
 
 .IconBlock p.sentence_1{
-	margin-left: 36%;
+	margin-left: ;
 }
 .IconBlock p.sentence_2{
-	margin-left: 12%;
+	margin-left: ;
 }
 .IconBlock p.sentence_3{
-	margin-right: 5%;
+	margin-right: ;
 }
 .IconBlock p.sentence_4{
-	margin-right: 30%;
+	margin-right: ;
 }
 .But{
 	margin-top: 92px;
@@ -182,9 +186,7 @@ header{
 	margin-bottom: 8.2%;
 	font-family: Garamond, serif;
 }	
-.Wumen img{
-	margin-left: 44.5%;
-}	
+	
 .WumenText{
 	margin-left: -70px;
 	color: #737373
@@ -711,7 +713,13 @@ footer .col_menu{
 	color: #bf162b;
 	border-bottom: 1px dashed #bf162b;
 }
-@media screen and(max-width:768px){
+@media (max-width:767px){
+	.Sec1H h2{
+	font-size:30px;
+	}
+	.IconBlock p{
+		font-size: 15px;
+	}
 	.Wumen img {
     margin-left: -0.5%;
 }
